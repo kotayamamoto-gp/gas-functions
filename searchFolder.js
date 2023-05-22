@@ -6,4 +6,5 @@ function searchFolder(driveId, searchFolderName) {
       return DriveApp.getFolderById(folder.getId());
     }
   }
+  return false;
 }
